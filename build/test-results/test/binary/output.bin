@@ -1,0 +1,1317 @@
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "11",
+    "year": "24",
+    "holder": "CAROYLN GREEN",
+    "cvc": ""
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:34 GMT
+
+{
+    "status": "APPROVED"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "11",
+    "year": "24",
+    "holder": "STANTON TOY",
+    "cvc": "377"
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:34 GMT
+
+{
+    "status": "APPROVED"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "2464775047186955",
+    "month": "",
+    "year": "24",
+$    "holder": "GREGORY VANDERVORT",
+    "cvc": "860"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:34 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.506+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "8737581010228831",
+    "month": "11",
+    "year": "24",
+.    "holder": "DUNCAN CARTER!@#$%^&*№;%:?",
+    "cvc": "478"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:34 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.562+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "4250176866908297",
+    "month": "11",
+    "year": "177",
+#    "holder": "TAMMERA AUFDERHAR",
+    "cvc": "839"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:34 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.588+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "11",
+    "year": "24",
+    "holder": "",
+    "cvc": "865"
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:34 GMT
+
+{
+    "status": "APPROVED"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "6174349941024278",
+    "month": "11",
+    "year": "24",
+    "holder": "CONRAD",
+    "cvc": "261"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:34 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.649+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+	Request method:	POST
+	1Request URI:	http://localhost:8080/api/v1/credit
+	Proxy:			<none>
+	Request params:	<none>
+	Query params:	<none>
+	Form params:	<none>
+	Path params:	<none>
+	VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+	1				Content-Type=application/json; charset=UTF-8
+	Cookies:		<none>
+	Multiparts:		<none>
+	Body:
+	{
+	    "number": "",
+	    "month": "11",
+	    "year": "24",
+	     "holder": "WILBURN DURGAN",
+	    "cvc": "499"
+	}
+	HTTP/1.1 500 
+	Vary: Origin
+	$Vary: Access-Control-Request-Method
+	%Vary: Access-Control-Request-Headers
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	$Date: Mon, 27 Nov 2023 16:52:34 GMT
+	Connection: close
+	
+	{
+	1    "timestamp": "2023-11-27T16:52:35.675+0000",
+	    "status": 500,
+	&    "error": "Internal Server Error",
+	"    "message": "400 Bad Request",
+	    "path": "/api/v1/credit"
+	}
+
+Request method:	POST
+
+1Request URI:	http://localhost:8080/api/v1/credit
+
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+Form params:	<none>
+
+Path params:	<none>
+
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+
+1				Content-Type=application/json; charset=UTF-8
+
+Cookies:		<none>
+
+Multiparts:		<none>
+
+Body:
+
+{
+
+"    "number": "0823811560355110",
+
+    "month": "11",
+
+    "year": "24",
+
+    "holder": "25125",
+
+    "cvc": "023"
+
+}
+
+HTTP/1.1 500 
+
+Vary: Origin
+
+$Vary: Access-Control-Request-Method
+
+%Vary: Access-Control-Request-Headers
+
+Content-Type: application/json
+
+Transfer-Encoding: chunked
+
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+
+Connection: close
+
+
+
+{
+
+1    "timestamp": "2023-11-27T16:52:35.701+0000",
+
+    "status": 500,
+
+&    "error": "Internal Server Error",
+
+"    "message": "400 Bad Request",
+
+    "path": "/api/v1/credit"
+
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4442",
+    "month": "11",
+    "year": "24",
+     "holder": "GUSTAVO GRAHAM",
+    "cvc": "020"
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+
+{
+    "status": "DECLINED"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "6437907031744050",
+    "month": "66",
+    "year": "24",
+"    "holder": "DONNETTE LEBSACK",
+    "cvc": "041"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.790+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "7339230408606408",
+    "month": "11",
+    "year": "00",
+!    "holder": "SIOBHAN QUIGLEY",
+    "cvc": "300"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.810+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "8837867283753222",
+    "month": "11",
+    "year": "24",
+    "holder": "W",
+    "cvc": "136"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.832+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "11",
+    "year": "22",
+     "holder": "NANCEE EFFERTZ",
+    "cvc": "360"
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+
+{
+    "status": "APPROVED"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "5374653684368317",
+    "month": "11",
+    "year": "24",
+/    "holder": "АНАТОЛИЙ ГРОМОВ",
+    "cvc": "183"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.896+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "7354857035723662",
+    "month": "00",
+    "year": "24",
+    "holder": "VIKKI WOLF",
+    "cvc": "467"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.915+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "6554735126125139",
+    "month": "11",
+    "year": "",
+    "holder": "DOLLY TOWNE",
+    "cvc": "179"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.935+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "7116661916966366",
+    "month": "11",
+    "year": "24",
+    "holder": "LYNN CASSIN",
+    "cvc": "2"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.954+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+1Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "7",
+    "month": "11",
+    "year": "24",
+"    "holder": "LAKENYA GISLASON",
+    "cvc": "377"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:35.978+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/credit"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "11",
+    "year": "24",
+    "holder": "CARRI HAMMES",
+    "cvc": ""
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+
+{
+    "status": "APPROVED"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "11",
+    "year": "24",
+    "holder": "MUI HESSEL",
+    "cvc": "647"
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+
+{
+    "status": "APPROVED"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "4050330937671188",
+    "month": "",
+    "year": "24",
+    "holder": "MARCELO HILLS",
+    "cvc": "004"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:36.122+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/pay"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "7311158094460342",
+    "month": "11",
+    "year": "24",
++    "holder": "ELVIS RYAN!@#$%^&*№;%:?",
+    "cvc": "648"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:36.142+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/pay"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "6158260863406646",
+    "month": "11",
+    "year": "316",
+     "holder": "DARWIN GOODWIN",
+    "cvc": "628"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:36.164+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/pay"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "11",
+    "year": "24",
+    "holder": "",
+    "cvc": "626"
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+
+{
+    "status": "APPROVED"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "2181277168515131",
+    "month": "11",
+    "year": "24",
+    "holder": "RENA",
+    "cvc": "109"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:36.211+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/pay"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "",
+    "month": "11",
+    "year": "24",
+$    "holder": "ALPHONSO WILDERMAN",
+    "cvc": "941"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:36.230+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/pay"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+"    "number": "1557818501721238",
+    "month": "11",
+    "year": "24",
+    "holder": "86560",
+    "cvc": "583"
+}
+HTTP/1.1 500 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+Connection: close
+
+{
+1    "timestamp": "2023-11-27T16:52:36.255+0000",
+    "status": 500,
+&    "error": "Internal Server Error",
+"    "message": "400 Bad Request",
+    "path": "/api/v1/pay"
+}
+Request method:	POST
+.Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4442",
+    "month": "11",
+    "year": "24",
+    "holder": "KEENAN BARTON",
+    "cvc": "720"
+}
+HTTP/1.1 200 
+Vary: Origin
+$Vary: Access-Control-Request-Method
+%Vary: Access-Control-Request-Headers
+Content-Type: application/json
+Transfer-Encoding: chunked
+$Date: Mon, 27 Nov 2023 16:52:35 GMT
+
+{
+    "status": "DECLINED"
+}
+ Request method:	POST
+ .Request URI:	http://localhost:8080/api/v1/pay
+ Proxy:			<none>
+ Request params:	<none>
+ Query params:	<none>
+ Form params:	<none>
+ Path params:	<none>
+ VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+ 1				Content-Type=application/json; charset=UTF-8
+ Cookies:		<none>
+ Multiparts:		<none>
+ Body:
+ {
+ "    "number": "8836853058224846",
+     "month": "72",
+     "year": "24",
+     "holder": "DWIGHT KIRLIN",
+     "cvc": "223"
+ }
+ HTTP/1.1 500 
+ Vary: Origin
+ $Vary: Access-Control-Request-Method
+ %Vary: Access-Control-Request-Headers
+ Content-Type: application/json
+ Transfer-Encoding: chunked
+ $Date: Mon, 27 Nov 2023 16:52:35 GMT
+ Connection: close
+ 
+ {
+ 1    "timestamp": "2023-11-27T16:52:36.335+0000",
+     "status": 500,
+ &    "error": "Internal Server Error",
+ "    "message": "400 Bad Request",
+     "path": "/api/v1/pay"
+ }
+!Request method:	POST
+!.Request URI:	http://localhost:8080/api/v1/pay
+!Proxy:			<none>
+!Request params:	<none>
+!Query params:	<none>
+!Form params:	<none>
+!Path params:	<none>
+!VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+!1				Content-Type=application/json; charset=UTF-8
+!Cookies:		<none>
+!Multiparts:		<none>
+!Body:
+!{
+!"    "number": "6971847673768862",
+!    "month": "11",
+!    "year": "00",
+!%    "holder": "CONSUELA WILLIAMSON",
+!    "cvc": "804"
+!}
+!HTTP/1.1 500 
+!Vary: Origin
+!$Vary: Access-Control-Request-Method
+!%Vary: Access-Control-Request-Headers
+!Content-Type: application/json
+!Transfer-Encoding: chunked
+!$Date: Mon, 27 Nov 2023 16:52:35 GMT
+!Connection: close
+!
+!{
+!1    "timestamp": "2023-11-27T16:52:36.355+0000",
+!    "status": 500,
+!&    "error": "Internal Server Error",
+!"    "message": "400 Bad Request",
+!    "path": "/api/v1/pay"
+!}
+"Request method:	POST
+".Request URI:	http://localhost:8080/api/v1/pay
+"Proxy:			<none>
+"Request params:	<none>
+"Query params:	<none>
+"Form params:	<none>
+"Path params:	<none>
+"VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+"1				Content-Type=application/json; charset=UTF-8
+"Cookies:		<none>
+"Multiparts:		<none>
+"Body:
+"{
+""    "number": "0997084674126407",
+"    "month": "11",
+"    "year": "24",
+"    "holder": "E",
+"    "cvc": "276"
+"}
+"HTTP/1.1 500 
+"Vary: Origin
+"$Vary: Access-Control-Request-Method
+"%Vary: Access-Control-Request-Headers
+"Content-Type: application/json
+"Transfer-Encoding: chunked
+"$Date: Mon, 27 Nov 2023 16:52:35 GMT
+"Connection: close
+"
+"{
+"1    "timestamp": "2023-11-27T16:52:36.375+0000",
+"    "status": 500,
+"&    "error": "Internal Server Error",
+""    "message": "400 Bad Request",
+"    "path": "/api/v1/pay"
+"}
+#Request method:	POST
+#.Request URI:	http://localhost:8080/api/v1/pay
+#Proxy:			<none>
+#Request params:	<none>
+#Query params:	<none>
+#Form params:	<none>
+#Path params:	<none>
+#VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#1				Content-Type=application/json; charset=UTF-8
+#Cookies:		<none>
+#Multiparts:		<none>
+#Body:
+#{
+#%    "number": "4444 4444 4444 4441",
+#    "month": "11",
+#    "year": "22",
+#    "holder": "SHAQUANA COLE",
+#    "cvc": "827"
+#}
+#HTTP/1.1 200 
+#Vary: Origin
+#$Vary: Access-Control-Request-Method
+#%Vary: Access-Control-Request-Headers
+#Content-Type: application/json
+#Transfer-Encoding: chunked
+#$Date: Mon, 27 Nov 2023 16:52:35 GMT
+#
+#{
+#    "status": "APPROVED"
+#}
+$Request method:	POST
+$.Request URI:	http://localhost:8080/api/v1/pay
+$Proxy:			<none>
+$Request params:	<none>
+$Query params:	<none>
+$Form params:	<none>
+$Path params:	<none>
+$VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+$1				Content-Type=application/json; charset=UTF-8
+$Cookies:		<none>
+$Multiparts:		<none>
+$Body:
+${
+$"    "number": "8984058525488661",
+$    "month": "11",
+$    "year": "24",
+$-    "holder": "РОМАН НИКИТИНА",
+$    "cvc": "561"
+$}
+$HTTP/1.1 500 
+$Vary: Origin
+$$Vary: Access-Control-Request-Method
+$%Vary: Access-Control-Request-Headers
+$Content-Type: application/json
+$Transfer-Encoding: chunked
+$$Date: Mon, 27 Nov 2023 16:52:35 GMT
+$Connection: close
+$
+${
+$1    "timestamp": "2023-11-27T16:52:36.445+0000",
+$    "status": 500,
+$&    "error": "Internal Server Error",
+$"    "message": "400 Bad Request",
+$    "path": "/api/v1/pay"
+$}
+%Request method:	POST
+%.Request URI:	http://localhost:8080/api/v1/pay
+%Proxy:			<none>
+%Request params:	<none>
+%Query params:	<none>
+%Form params:	<none>
+%Path params:	<none>
+%VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+%1				Content-Type=application/json; charset=UTF-8
+%Cookies:		<none>
+%Multiparts:		<none>
+%Body:
+%{
+%"    "number": "7197531495107671",
+%    "month": "00",
+%    "year": "24",
+%    "holder": "OTHA HILLS",
+%    "cvc": "493"
+%}
+%HTTP/1.1 500 
+%Vary: Origin
+%$Vary: Access-Control-Request-Method
+%%Vary: Access-Control-Request-Headers
+%Content-Type: application/json
+%Transfer-Encoding: chunked
+%$Date: Mon, 27 Nov 2023 16:52:35 GMT
+%Connection: close
+%
+%{
+%1    "timestamp": "2023-11-27T16:52:36.463+0000",
+%    "status": 500,
+%&    "error": "Internal Server Error",
+%"    "message": "400 Bad Request",
+%    "path": "/api/v1/pay"
+%}
+&Request method:	POST
+&.Request URI:	http://localhost:8080/api/v1/pay
+&Proxy:			<none>
+&Request params:	<none>
+&Query params:	<none>
+&Form params:	<none>
+&Path params:	<none>
+&VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+&1				Content-Type=application/json; charset=UTF-8
+&Cookies:		<none>
+&Multiparts:		<none>
+&Body:
+&{
+&"    "number": "1316519356464471",
+&    "month": "11",
+&    "year": "",
+&     "holder": "CARTER DICKENS",
+&    "cvc": "765"
+&}
+&HTTP/1.1 500 
+&Vary: Origin
+&$Vary: Access-Control-Request-Method
+&%Vary: Access-Control-Request-Headers
+&Content-Type: application/json
+&Transfer-Encoding: chunked
+&$Date: Mon, 27 Nov 2023 16:52:35 GMT
+&Connection: close
+&
+&{
+&1    "timestamp": "2023-11-27T16:52:36.480+0000",
+&    "status": 500,
+&&    "error": "Internal Server Error",
+&"    "message": "400 Bad Request",
+&    "path": "/api/v1/pay"
+&}
+'Request method:	POST
+'.Request URI:	http://localhost:8080/api/v1/pay
+'Proxy:			<none>
+'Request params:	<none>
+'Query params:	<none>
+'Form params:	<none>
+'Path params:	<none>
+'VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+'1				Content-Type=application/json; charset=UTF-8
+'Cookies:		<none>
+'Multiparts:		<none>
+'Body:
+'{
+'"    "number": "3343334964267875",
+'    "month": "11",
+'    "year": "24",
+'    "holder": "RORY BEATTY",
+'    "cvc": "7"
+'}
+'HTTP/1.1 500 
+'Vary: Origin
+'$Vary: Access-Control-Request-Method
+'%Vary: Access-Control-Request-Headers
+'Content-Type: application/json
+'Transfer-Encoding: chunked
+'$Date: Mon, 27 Nov 2023 16:52:35 GMT
+'Connection: close
+'
+'{
+'1    "timestamp": "2023-11-27T16:52:36.498+0000",
+'    "status": 500,
+'&    "error": "Internal Server Error",
+'"    "message": "400 Bad Request",
+'    "path": "/api/v1/pay"
+'}
+(Request method:	POST
+(.Request URI:	http://localhost:8080/api/v1/pay
+(Proxy:			<none>
+(Request params:	<none>
+(Query params:	<none>
+(Form params:	<none>
+(Path params:	<none>
+(VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+(1				Content-Type=application/json; charset=UTF-8
+(Cookies:		<none>
+(Multiparts:		<none>
+(Body:
+({
+(    "number": "2",
+(    "month": "11",
+(    "year": "24",
+(    "holder": "LOUIE PURDY",
+(    "cvc": "205"
+(}
+(HTTP/1.1 500 
+(Vary: Origin
+($Vary: Access-Control-Request-Method
+(%Vary: Access-Control-Request-Headers
+(Content-Type: application/json
+(Transfer-Encoding: chunked
+($Date: Mon, 27 Nov 2023 16:52:35 GMT
+(Connection: close
+(
+({
+(1    "timestamp": "2023-11-27T16:52:36.516+0000",
+(    "status": 500,
+(&    "error": "Internal Server Error",
+("    "message": "400 Bad Request",
+(    "path": "/api/v1/pay"
+(}
+ *)WNov 27, 2023 7:52:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ *)hWARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115

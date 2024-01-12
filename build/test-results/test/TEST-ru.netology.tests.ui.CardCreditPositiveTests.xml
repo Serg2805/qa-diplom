@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.tests.ui.CardCreditPositiveTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-27T16:53:21" hostname="sergei-MacBook-Air.local" time="30.266">
+  <properties/>
+  <testcase name="Отправление формы покупки тура в Кредит с рабочей карты, на текущий год и месяц и валидными данными" classname="ru.netology.tests.ui.CardCreditPositiveTests" time="10.267"/>
+  <testcase name="Отправление формы покупки тура в Кредит с рабочей карты, на следующий год и следующий месяц и валидными данными" classname="ru.netology.tests.ui.CardCreditPositiveTests" time="10.284"/>
+  <testcase name="Отправление формы покупки тура в Кредит с рабочей карты, на текущий год и следующий месяц и валидными данными" classname="ru.netology.tests.ui.CardCreditPositiveTests" time="9.709"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
